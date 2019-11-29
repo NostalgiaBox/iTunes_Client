@@ -13,7 +13,6 @@
 		7203445A23908A6200238C4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7203445823908A6200238C4E /* Main.storyboard */; };
 		7203445C23908A6400238C4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7203445B23908A6400238C4E /* Assets.xcassets */; };
 		7203445F23908A6400238C4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7203445D23908A6400238C4E /* LaunchScreen.storyboard */; };
-		7203446A23908A8600238C4E /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7203446923908A8600238C4E /* Artist.swift */; };
 		7203446C23908B0400238C4E /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7203446B23908B0400238C4E /* Genre.swift */; };
 		7203446E23908B2A00238C4E /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7203446D23908B2A00238C4E /* Album.swift */; };
 		7203447023908D1300238C4E /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7203446F23908D1300238C4E /* Song.swift */; };
@@ -29,6 +28,7 @@
 		722816912390D84200950216 /* AlbumDetailDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722816902390D84200950216 /* AlbumDetailDataSource.swift */; };
 		722816932390D8A000950216 /* SongCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722816922390D8A000950216 /* SongCell.swift */; };
 		722816962390D94000950216 /* SongViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722816952390D94000950216 /* SongViewModel.swift */; };
+		722816982390E0D100950216 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722816972390E0D100950216 /* Artist.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,7 +40,6 @@
 		7203445B23908A6400238C4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7203445E23908A6400238C4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7203446023908A6400238C4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7203446923908A8600238C4E /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		7203446B23908B0400238C4E /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
 		7203446D23908B2A00238C4E /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 		7203446F23908D1300238C4E /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
@@ -56,6 +55,7 @@
 		722816902390D84200950216 /* AlbumDetailDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailDataSource.swift; sourceTree = "<group>"; };
 		722816922390D8A000950216 /* SongCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongCell.swift; sourceTree = "<group>"; };
 		722816952390D94000950216 /* SongViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongViewModel.swift; sourceTree = "<group>"; };
+		722816972390E0D100950216 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,11 +106,11 @@
 		7203446623908A6C00238C4E /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				7203446923908A8600238C4E /* Artist.swift */,
 				7203446B23908B0400238C4E /* Genre.swift */,
 				7203446D23908B2A00238C4E /* Album.swift */,
 				7203446F23908D1300238C4E /* Song.swift */,
 				7203447123908EEF00238C4E /* Stub.swift */,
+				722816972390E0D100950216 /* Artist.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -243,11 +243,11 @@
 				7203447223908EEF00238C4E /* Stub.swift in Sources */,
 				720344742390B55A00238C4E /* SearchResultsController.swift in Sources */,
 				722816912390D84200950216 /* AlbumDetailDataSource.swift in Sources */,
-				7203446A23908A8600238C4E /* Artist.swift in Sources */,
 				7228168D2390D2DE00950216 /* AlbumDetailController.swift in Sources */,
 				7203445523908A6200238C4E /* SceneDelegate.swift in Sources */,
 				7203447D2390C54E00238C4E /* AlbumListDataSource.swift in Sources */,
 				722816962390D94000950216 /* SongViewModel.swift in Sources */,
+				722816982390E0D100950216 /* Artist.swift in Sources */,
 				720344772390BFBC00238C4E /* SearchResultsDataSource.swift in Sources */,
 				7203446C23908B0400238C4E /* Genre.swift in Sources */,
 				7203446E23908B2A00238C4E /* Album.swift in Sources */,
