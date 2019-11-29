@@ -10,7 +10,7 @@ import UIKit
 
 class AlbumCell: UITableViewCell {
 
-    static let reuseIdentifier = "AlbumCell"
+    static let reuseIdentifier = "albumCell"
     
     @IBOutlet weak var artWorkView: UIImageView!
     @IBOutlet weak var albumTitleLabel: UILabel!

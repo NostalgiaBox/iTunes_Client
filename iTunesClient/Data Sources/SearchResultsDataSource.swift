@@ -30,11 +30,17 @@ class SearchResultsDataSource: NSObject, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "ResultCell", for: indexPath) as! AlbumCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ResultCell", for: indexPath)
         
         let artist = data[indexPath.row]
         cell.textLabel?.text = artist.name
         
         return cell
+    }
+    
+    //MARK: Helper
+    
+    func artist(at indexPath: IndexPath) -> Artist {
+        return data[indexPath.row]
     }
 }
